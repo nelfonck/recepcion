@@ -35,7 +35,7 @@ export default {
         Resultados
     },
     methods:{
-        consumirapi(consecutivo, total){
+        consumirapi(consecutivo, total){//
             this.$loading.show({delay:0})
                  axios
                 .get('http://201.192.158.233:82/apibodega/public/recepcion/estado',{
